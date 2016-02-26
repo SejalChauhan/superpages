@@ -1,0 +1,75 @@
+3645:M 25 Feb 18:47:50.555 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+83645:M 25 Feb 18:47:50.555 # Server started, Redis version 999.999.999
+83645:M 25 Feb 18:47:50.555 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+83645:M 25 Feb 18:47:50.555 * The server is now ready to accept connections on port 6379
+
+83645:M 25 Feb 18:48:51.071 * 10000 changes in 60 seconds. Saving...
+83645:M 25 Feb 18:48:51.110 * Background saving started by pid 84334
+84334:C 25 Feb 18:48:51.110 * timestamp_cow 1456444131110932
+
+84334:C 25 Feb 18:49:24.236 * DB saved on disk
+84334:C 25 Feb 18:49:24.382 * RDB: 3095 MB of memory used by copy-on-write, RSS 3225 MB, Huge Pages 0 MB
+83645:M 25 Feb 18:49:24.814 * Background saving terminated with success
+
+83645:M 25 Feb 18:50:25.052 * 10000 changes in 60 seconds. Saving...
+83645:M 25 Feb 18:50:25.172 * Background saving started by pid 85310
+85310:C 25 Feb 18:50:25.173 * timestamp_cow 1456444225173025
+
+85310:C 25 Feb 18:51:20.300 * DB saved on disk
+85310:C 25 Feb 18:51:20.550 * RDB: 7065 MB of memory used by copy-on-write, RSS 7252 MB, Huge Pages 0 MB
+83645:M 25 Feb 18:51:21.470 * Background saving terminated with success
+83645:M 25 Feb 18:52:22.030 * 10000 changes in 60 seconds. Saving...
+83645:M 25 Feb 18:52:22.217 * Background saving started by pid 86672
+timestamp 1456446064749302 max: 13
+timestamp 1456446065769109 max: 10
+timestamp 1456446066781189 max: 11
+86672:C 25 Feb 18:52:22.217 * timestamp_cow 1456444342217117
+
+86672:C 25 Feb 18:54:39.937 * DB saved on disk
+86672:C 25 Feb 18:54:40.417 * RDB: 9701 MB of memory used by copy-on-write, RSS 9928 MB, Huge Pages 0 MB
+83645:M 25 Feb 18:54:41.880 * Background saving terminated with success
+83645:M 25 Feb 18:55:42.016 * 10000 changes in 60 seconds. Saving...
+89114:C 25 Feb 18:55:42.315 * timestamp_cow 1456444542315354
+
+83645:M 25 Feb 18:55:42.317 * Background saving started by pid 89114
+89114:C 25 Feb 18:59:00.435 * DB saved on disk
+89114:C 25 Feb 18:59:01.070 * RDB: 13306 MB of memory used by copy-on-write, RSS 13627 MB, Huge Pages 0 MB
+83645:M 25 Feb 18:59:03.168 * Background saving terminated with success
+83645:M 25 Feb 19:00:04.019 * 10000 changes in 60 seconds. Saving...
+83645:M 25 Feb 19:00:04.448 * Background saving started by pid 92199
+92199:C 25 Feb 19:00:04.449 * timestamp_cow 1456444804449080
+
+92199:C 25 Feb 19:02:46.114 * DB saved on disk
+92199:C 25 Feb 19:02:47.090 * RDB: 19523 MB of memory used by copy-on-write, RSS 19986 MB, Huge Pages 0 MB
+83645:M 25 Feb 19:02:50.189 * Background saving terminated with success
+83645:M 25 Feb 19:03:51.006 * 10000 changes in 60 seconds. Saving...
+94980:C 25 Feb 19:03:51.489 * timestamp_cow 1456445031489102
+
+83645:M 25 Feb 19:03:51.491 * Background saving started by pid 94980
+94980:C 25 Feb 19:07:12.154 * DB saved on disk
+94980:C 25 Feb 19:07:13.160 * RDB: 19845 MB of memory used by copy-on-write, RSS 20255 MB, Huge Pages 0 MB
+83645:M 25 Feb 19:07:16.409 * Background saving terminated with success
+83645:M 25 Feb 19:08:17.014 * 10000 changes in 60 seconds. Saving...
+98185:C 25 Feb 19:08:17.495 * timestamp_cow 1456445297495800
+
+83645:M 25 Feb 19:08:17.498 * Background saving started by pid 98185
+98185:C 25 Feb 19:12:00.703 * DB saved on disk
+98185:C 25 Feb 19:12:01.836 * RDB: 20915 MB of memory used by copy-on-write, RSS 21373 MB, Huge Pages 0 MB
+83645:M 25 Feb 19:12:05.423 * Background saving terminated with success
+83645:M 25 Feb 19:13:06.038 * 10000 changes in 60 seconds. Saving...
+101616:C 25 Feb 19:13:06.673 * timestamp_cow 1456445586673549
+
+83645:M 25 Feb 19:13:06.677 * Background saving started by pid 101616
+101616:C 25 Feb 19:16:43.274 * DB saved on disk
+101616:C 25 Feb 19:16:44.391 * RDB: 21358 MB of memory used by copy-on-write, RSS 21982 MB, Huge Pages 0 MB
+83645:M 25 Feb 19:16:47.881 * Background saving terminated with success
+83645:M 25 Feb 19:17:48.028 * 10000 changes in 60 seconds. Saving...
+104962:C 25 Feb 19:17:48.555 * timestamp_cow 1456445868555075
+
+83645:M 25 Feb 19:17:48.557 * Background saving started by pid 104962
+104962:C 25 Feb 19:21:49.979 # Write error saving DB on disk: No space left on device
+^C83645:signal-handler (1456446113) Received SIGINT scheduling shutdown...
+83645:M 25 Feb 19:21:53.836 # User requested shutdown...
+83645:M 25 Feb 19:21:53.836 # There is a child saving an .rdb. Killing it!
+83645:M 25 Feb 19:21:53.837 * Saving the final RDB snapshot before exiting.
+^C83645:signal-handler (1456446115) You insist... exiting now.

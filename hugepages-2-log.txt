@@ -1,0 +1,40 @@
+75744:M 25 Feb 18:36:11.579 * The server is now ready to accept connections on port 6379
+
+75744:M 25 Feb 18:37:12.071 * 10000 changes in 60 seconds. Saving...
+75744:M 25 Feb 18:37:12.074 * Background saving started by pid 76432
+76432:C 25 Feb 18:37:12.074 * timestamp_cow 1456443432074853
+
+76432:C 25 Feb 18:37:35.981 * DB saved on disk
+76432:C 25 Feb 18:37:35.983 * RDB: 3946 MB of memory used by copy-on-write, RSS 3946 MB, Huge Pages 3946 MB
+75744:M 25 Feb 18:37:36.096 * Background saving terminated with success
+
+
+75744:M 25 Feb 18:38:37.084 * 10000 changes in 60 seconds. Saving...
+75744:M 25 Feb 18:38:37.090 * Background saving started by pid 77369
+77369:C 25 Feb 18:38:37.090 * timestamp_cow 1456443517090546
+
+77369:C 25 Feb 18:39:22.213 * DB saved on disk
+77369:C 25 Feb 18:39:22.216 * RDB: 8184 MB of memory used by copy-on-write, RSS 8184 MB, Huge Pages 8184 MB
+75744:M 25 Feb 18:39:22.255 * Background saving terminated with success
+
+
+75744:M 25 Feb 18:40:23.096 * 10000 changes in 60 seconds. Saving...
+75744:M 25 Feb 18:40:23.104 * Background saving started by pid 78541
+78541:C 25 Feb 18:40:23.105 * timestamp_cow 1456443623105308
+
+78541:C 25 Feb 18:41:30.253 * DB saved on disk
+78541:C 25 Feb 18:41:30.256 * RDB: 11230 MB of memory used by copy-on-write, RSS 11230 MB, Huge Pages 11230 MB
+75744:M 25 Feb 18:41:30.360 * Background saving terminated with success
+
+
+
+75744:M 25 Feb 18:42:31.105 * 10000 changes in 60 seconds. Saving...
+75744:M 25 Feb 18:42:31.116 * Background saving started by pid 79994
+79994:C 25 Feb 18:42:31.116 * timestamp_cow 1456443751116818
+
+79994:C 25 Feb 18:43:55.387 * DB saved on disk
+79994:C 25 Feb 18:43:55.391 * RDB: 15950 MB of memory used by copy-on-write, RSS 15950 MB, Huge Pages 15950 MB
+75744:M 25 Feb 18:43:55.526 * Background saving terminated with success
+^C75744:signal-handler (1456443864) Received SIGINT scheduling shutdown...
+75744:M 25 Feb 18:44:24.971 # User requested shutdown...
+75744:M 25 Feb 18:44:24.971 * Saving the final RDB snapshot before exiting.
